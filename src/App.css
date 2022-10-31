@@ -1,0 +1,106 @@
+body{
+  background-color: #B2B2B2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  color: gainsboro;
+}
+
+.dados{
+  height: 56vh;
+  width: 55vh;
+  background-color:#3C4048;
+  border: solid 1px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Destino{
+  background-color: #3C4048;
+  height: 100%;
+  width: 55vh;
+  border: solid 1px ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30vh;
+}
+
+  input{
+  height: 5vh;
+  width: 30vh;
+  border: gainsboro solid 1px;
+  width: 46vh;
+  border-radius: 3px;
+  padding: 0px 10px;
+  margin: 1vh 0px;
+
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.botao{
+  height: 5vh;
+  width: 35vh;
+  background-color: white;
+  color: black;
+  margin-left: 36%;
+  border-radius: 30px;
+}
+
+.botao:hover{
+  background-color: #3C4048;
+}
+
+span{
+  color: red;
+  font-size: 10px;
+}
+
+.select{
+  margin: 6.4vh 0px;
+  width: 46vh;
+  font-size: 12px;
+}
+
+@media (max-width: 900px){
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Dados{
+    height: 30vh;
+    width: 50vh;
+  }
+  .Destino{
+    margin: 0px;
+    margin-top: 30px;
+  }
+
+  
+  /* center .botao to center */
+  .botao{
+    margin: 30px 0px 0px 84px;
+  }
+  
+  @media (max-width: 768px){
+
+  }
+}
